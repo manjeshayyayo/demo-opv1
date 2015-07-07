@@ -683,5 +683,17 @@ a.list-group-custom {
         font-size: 10px;
     }
 
+    .remember-me-block {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .remember-me {
+        font-size: 12px;
+    }
+
+    .form-group {
+        margin-bottom: 0px;
+    }
 }
 
