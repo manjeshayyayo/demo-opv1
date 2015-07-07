@@ -73,18 +73,53 @@
     margin-right: 5px;
 }
 @media all and (max-width: 480px) {
-    .login-button {
-        background: #ADD2E5;
-        color: #328EBD;
-        border: none;
-        font-family: 'DroidSans';
-        border-radius: 5px;
-        padding: 10px 17px;
-        font-size: 35px;
-        text-shadow: none;
-        min-width: 99px;
-        margin-right: 5px;
+    .page-container {
+        padding-left: 5px;
+        padding-right: 5px;
     }
+
+    .login-button {
+        padding: 5px 8px;
+        font-size: 16px;
+        min-width: 70px;
+    }
+
+    .login-block {
+        padding: 10px;
+    }
+
+    .login-block input[type="text"],
+    .login-block input[type="email"],
+    .login-block input[type="password"] {
+        font-size: 16px;
+        min-height: 25px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        padding: 5px 15px;
+    }
+
+    .login-block h4 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+
+    hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .social-button {
+        margin-left: 5px;
+    }
+
+    .social-button li a i {
+        padding: 3px;
+        font-size: 24px;
+        min-width: 30px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
 }
 
 .login-button-active {
