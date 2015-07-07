@@ -695,5 +695,31 @@ a.list-group-custom {
     .form-group {
         margin-bottom: 0px;
     }
+
+    .menu {
+        padding: 10px;
+        margin-top: 0;
+
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .op-header {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+
+    #page-homepage .heading {
+        margin-top: 5px;
+        font-size: 12px;
+        padding:5px;
+        margin-bottom:5px;
+
+    }
+    .memorial-figure {
+        margin-top: 0px;
+    }
 }
 
