@@ -240,7 +240,7 @@ body {
   background:#E4EEF0;
   margin-top: 8px;
   border-bottom: 2px solid #71B1D1;
-  min-height: 420px !important;
+  min-height: 420px;
   overflow: hidden;
   border-top-left-radius:5px;
   border-top-right-radius:5px;
@@ -282,11 +282,30 @@ span.hit-count {
   border-right: 0px;
 }
 
-.profile-image {
-	margin-top: -12.3%;
+.thumb-image {
+    margin-top: -20%;
     border-radius: 50%;
+    width: 44%;
 }
 
+.column {
+    width: 49%;
+    float: left;
+    margin-bottom:15px;
+}
+
+.three-column {
+    width: 33.3333%;
+    float: left;
+}
+
+.three-column img {
+    width:50%;
+}
+
+.memorial-slider .column:nth-child(2n+2) {
+    float: right;
+}
 
 .list-group-custom{
   background-color: #328ebd !important;
@@ -720,6 +739,41 @@ a.list-group-custom {
     }
     .memorial-figure {
         margin-top: 0px;
+        min-height: 200px;
     }
+
+    .memorial-figure h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .memorial-figure p {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .column{
+        margin-bottom: 5px;
+    }
+
+    span.hit-count {
+        left: 35px;
+        top: 3px;
+    }
+
+    .memorial-footer > div {
+        padding-top:0;
+    }
+
+    .three-column {
+        min-height:25px !important;
+    }
+
+    .three-column img {
+        margin-left: 5px;
+    }
+
+
 }
+
 
