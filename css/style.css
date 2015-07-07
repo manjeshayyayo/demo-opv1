@@ -55,11 +55,14 @@ body {
     padding: 25px;
 }
 
+.login-block  input[type="number"],
 .login-block  input[type="text"], 
 .login-block  input[type="email"], 
-.login-block  input[type="password"] {
+.login-block  input[type="password"],
+.login-block  textarea{
     background: #DEECF5;
     color: #70706F;
+
     font-family: 'DroidSans';
     font-size: 26px;
     min-height: 65px;
@@ -617,3 +620,28 @@ a.list-group-custom {
 .collections img{
     width:25%;
 }
+
+/* Page no 20*/
+
+.content {
+    font-size: 30px;
+    /*text-align: justify;*/
+    line-height: 31px;
+    color:#696768;
+}
+
+.labelFont{
+    font-size: 20px;
+    font-weight: normal !important;
+}
+
+.labelFont span{
+    color: red;
+
+}
+
+.sendBtn{
+    display: table;
+    margin: 0 auto !important;
+}
+
