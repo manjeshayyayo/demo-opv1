@@ -42,7 +42,8 @@
             <label for="picture">Upload Profile Picture</label>
             <input type="text" id="picture" class="form-item hidden" placeholder="A loveing wife and mother"/>
             <img src="images/user.png">
-            <button class="btn btn-default send-button">Upload Photo</button>
+            <div class="clear"></div>
+            <button class="btn btn-default send-button upload-photo">Upload Photo</button>
          </div>
          <div class="form-row">
             <label for="memorial-header">Customize Memorial Header</label>
@@ -55,7 +56,7 @@
                <img src="images/memorial-banner-4.jpg">
             </div>
             <p>Upload from my collection</p>
-            <button class="btn btn-default send-button">Upload Photo</button>
+            <button class="btn btn-default send-button upload-photo">Upload Photo</button>
          </div>
          <div class="form-row">
             <label for="born">BORN ON</label>
@@ -74,18 +75,20 @@
             <input type="text" id="place-of-death" class="form-item"  placeholder="Enter a location"/>
          </div>
          <div class="form-row">
-            <label for="memorial-text">MEMORIAL TEXT <i>*</i></label>
-            <input type="text" id="language" class="form-item col-sm-6 col-xs-6"  placeholder="English"/>
+            <label for="memorial-text">MEMORIAL TEXT<i>*</i></label>
+            <input type="text" id="language" class="form-item half"  placeholder="English"/>
             <textarea id="memorial-text">Write text here...</textarea>
          </div>
          <div class="form-row">
-            <label for="relationship">Relationship <i>*</i></label>
+            <label for="relationship">Relationship<i>*</i></label>
+            <img src="images/user.png" class="relative-image">
             <div class="relative-name">MADDY CROWELl</div>
-            <input type="text" id="relationship" class="form-item col-sm-6 col-xs-6"  placeholder="General Curator"/>
+            <input type="text" id="relationship" class="form-item half"  placeholder="General Curator"/>
+            <div class="clear"></div>
          </div>
          <div class="form-row">
             <label for="relationship">Add Family & Friends of the Departed</label>
-            <input type="text" id="language" class="form-item col-sm-6 col-xs-6"  placeholder="Relationship"/>
+            <input type="text" id="language" class="form-item half"  placeholder="Relationship"/>
             <input type="text" id="relationship" class="form-item"/>
             <a href="#" class="add-button"><img src="images/add-button.png"></a>
          </div>
@@ -122,22 +125,19 @@
          </div>
          <div class="form-row">
             <label for="privacy">Memorial Setting</label>
-            <label>
+            <p class="radio-wrapper">
                <input type="radio" name="privacy" id="privacy"> Public(Everyone can see)
-            </label>
-            <label>
+            </p>
+            <p class="radio-wrapper">
                <input type="radio" name="privacy"> Private(Only those I add can see)
-            </label>
-         </div>
-         <div class="form-row">
-            <label for="agreement">Memorial Setting</label>
-            <label>
-               <input type="checkbox" id="agreement"> I have read, understand and agree to the Privacy and Terms of Agreement of Obitopedia.
-            </label>
+            </p>
 
+            <p class="checkbox-wrapper">
+               <input type="checkbox" id="agreement"> I have read, understand and agree to the Privacy and Terms of Agreement of Obitopedia.
+            </p>
+            <i class="required">*All boxes marked with the star are compulsory</i>
          </div>
-         <div class="form-row">
-            <i>*All boxes marked with the star are compulsory</i>
+         <div class="form-row text-center">
             <button class="btn btn-default login-button login-button-submit">PREVIEW</button>
             <button class="btn btn-default login-button login-button-submit">CREATE MEMORIAL</button>
          </div>

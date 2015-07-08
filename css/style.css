@@ -623,7 +623,7 @@ a.list-group-custom {
 
 
 .collections img{
-    width:25%;
+    width:24%;
 }
 
 /* Page no 20*/
@@ -648,6 +648,93 @@ a.list-group-custom {
 .sendBtn{
     display: table;
     margin: 0 auto !important;
+}
+
+.form-row label {
+    display: block;
+    text-transform:uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.form-create-memorial {
+    padding:20px
+}
+
+.form-create-memorial textarea{
+    color: #aaa;
+}
+
+
+.form-create-memorial textarea,
+.form-create-memorial input[type="text"]{
+    background: #e4edf2;
+    font-size: 20px;
+    width: 90%;
+    display: inline;
+    margin: 0 10px 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: normal;
+}
+
+.form-create-memorial label i {
+    color: red;
+    font-size: 28px;
+    top: 6px;
+    position: relative;
+}
+
+.required {
+    color:#ff0000;
+}
+
+.upload-photo{
+    margin:15px 0;
+}
+
+.collections {
+    margin-bottom:15px
+}
+
+.form-create-memorial {
+    font-size: 16px;
+    color:#444a56;
+    font-weight: bold;
+}
+
+.half {
+    width:45% !important;
+}
+
+.relative-name {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.relative-image{
+    float:left;
+    margin-right: 10px;
+}
+
+.schools-divider {
+    margin-bottom: 20px;
+}
+.checkbox-wrapper,
+.radio-wrapper {
+    padding-left:0px;
+    color:#808080;
+    font-weight:normal;
+}
+
+.form-create-memorial .login-button {
+    margin-top:15px;
+    padding: 10px 15px;
+    font-size: 24px;
+    min-width: 99px;
+    margin-right: 5px;
 }
 
 @media all and (max-width: 480px) {
