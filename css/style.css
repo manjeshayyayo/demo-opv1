@@ -415,11 +415,13 @@ a.list-group-custom {
 }
 
 .header-one {
+    font-family: 'DroidSans';
+    font-size: 40px;
     background: #E6F1F5;
     padding: 10px;
     color: #3284B3;
     margin: 15px 0;
-    font-size: 26px;
+
 }
 
 #page-message .messages-block {
@@ -736,6 +738,83 @@ a.list-group-custom {
     font-size: 24px;
     min-width: 99px;
     margin-right: 5px;
+}
+
+#page-curator {
+    background:#c2d9e7;
+}
+#page-curator .user-container .curator-image{
+    float: left;
+    width: 40%;
+    margin-right: 35px;
+    margin-bottom: 15px;
+}
+
+#page-curator .user-container .user-name {
+    font-family: 'DroidSans';
+    font-weight:bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#page-curator .user-container .user-detail {
+    font-family: 'DroidSans';
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.social-icons li  a img {
+    width: 55px;
+}
+
+#page-curator .curator-description{
+    font-family: 'DroidSans';
+    font-size: 40px;
+    /*text-align: justify;*/
+}
+
+#page-curator .user-container .user-record-title {
+    font-family: 'DroidSans';
+    margin-top: 30px;
+    font-size: 38px;
+    border-bottom: 3px solid #bfbfc1;
+    padding-bottom: 20px;
+    color: #308fbd;
+}
+
+#page-curator .user-container .user-records{
+    font-family: 'DroidSans';
+    font-size: 32px;
+    padding: 10px 0;
+    color: #686669;
+}
+
+.curator-profile {
+    margin: 20px 20px 20px 0;
+}
+.curator-profile-img {
+    float: left;
+    margin: 0px 20px 20px 0;
+}
+
+.curator-profile-name {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #666;
+    font-family: 'DroidSans';
+
+}
+
+.curator-wall {
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    font-family: "Times New Roman";
+    font-size: 21px;
+    margin-bottom:20px;
 }
 
 @media all and (max-width: 480px) {
