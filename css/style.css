@@ -984,3 +984,37 @@ hr {clear: both; }
 .user-detail{
     font-size: 20px;
 }
+
+.three-border{
+    border-top: 2px solid #71B1D1;
+}
+
+.three-border img{
+    width: 100%; 
+}
+.list-item-style{
+    text-align: center;
+}
+
+.count-position{
+    position: relative;
+}
+
+.hit-align{
+    position: absolute;
+    top: -8px;
+    left: -10px;
+}
+.post-button{
+    padding: 5px 8px;
+    font-size: 16px;
+    min-width: 70px;
+    border: none;
+    font-family: 'DroidSans';
+    border-radius: 5px;
+}
+
+.family-branch{
+    width: 100%;
+    border-radius: 5px;
+}
