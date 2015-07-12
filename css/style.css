@@ -42,7 +42,7 @@ body {
 .page-container {
     padding-left:15px;
     padding-right:15px;
-    color: #3185b4;
+    /*color: #3185b4;*/
 }
 
 .button-group {
@@ -273,10 +273,7 @@ body {
 }
 
 span.hit-count {
-  position: absolute;
   font-weight: bold;
-  left: 76px;
-  top: 16px;
 }
 
 .memorial-footer > div:last-child {
@@ -817,6 +814,130 @@ a.list-group-custom {
     margin-bottom:20px;
 }
 
+
+
+/*page 15*/
+.headerMargin{
+    margin-top:0px !important;
+}
+
+hr {clear: both; }
+
+.content-area{
+    height: auto;
+    background-color: #e4edf2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.reply-repot-link{
+    border: 1px solid #73b3cf;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.loginBlock{
+    margin-top: 10px;
+}
+
+.content-text{
+    font-size: 25px;
+    color: #3d3d3d;
+}
+
+.user-detail{
+    font-size: 20px;
+}
+
+.three-border{
+    border-top: 2px solid #71B1D1;
+}
+
+.three-border img{
+    width: 100%;
+}
+.list-item-style{
+    text-align: center;
+}
+
+.count-position{
+    position: relative;
+}
+
+.hit-align{
+    position: absolute;
+    top: -8px;
+    left: -10px;
+}
+.post-button{
+    padding: 5px 8px;
+    font-size: 16px;
+    min-width: 70px;
+    border: none;
+    font-family: 'DroidSans';
+    border-radius: 5px;
+}
+
+.family-branch{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.curated-by {
+    font-family: 'DroidSans';
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.curated-by-divider {
+    border-right: 2px solid #ccc;
+}
+
+.curated-by-caption {
+    color: #BDBEC0;
+    padding: 10px 0 0 10px;
+    width: 20%;
+}
+
+.curated-by-name {
+    margin-left: 20px;
+}
+
+.curated-by img {
+    margin-right: 10px;
+}
+
+.share-memorial {
+    font-size: 26px;
+    color: #337ab7;
+}
+
+.share-memorial .fa {
+    margin-left:10px;
+}
+
+.curated-by > div {
+    display:inline-block;
+}
+.curated-by-name span,
+.curated-by-divider span {
+
+    margin-right: 20px;
+}
+
+.curated-by-name img,
+.curated-by-divider img {
+    width: 20%;
+}
+
+
 @media all and (max-width: 480px) {
     .row{
         margin-right: 0px !important;
@@ -944,77 +1065,59 @@ a.list-group-custom {
         margin-left: 5px;
     }
 
+    .share-memorial {
+        font-size: 12px;
+    }
 
+    .curated-by {
+        font-size: 8px;
+    }
+
+    .curated-by-name img,
+    .curated-by-divider img {
+        width: 30%;
+        float:left;
+    }
+
+    .curated-by-caption {
+        top: 14px;
+
+
+    }
+
+    .curated-by-name span, .curated-by-divider span {
+        top: 3px;
+    }
+
+    .curated-by img {
+        margin-right: 2px;
+    }
+
+    .curated-by-name {
+        margin-left: 2px;
+        width:30%;
+    }
+
+    .curated-arrow img {
+        width: 40%;
+    }
+
+    .curated-by-divider{
+        width: 30%;
+    }
+
+
+}
+.curated-by-divider{
+    width: 30%;
+}
+.curated-by-name img,
+.curated-by-divider img {
+    width: 30%;
+    float:left;
 }
 
 
-/*page 15*/
-.headerMargin{
-    margin-top:0px !important;
-}
-
-hr {clear: both; }
-
-.content-area{
-    height: auto;
-    background-color: #e4edf2;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.reply-repot-link{
-    border: 1px solid #73b3cf;
-    padding: 10px;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.loginBlock{
-    margin-top: 10px;
-}
-
-.content-text{
-    font-size: 25px;
-    color: #3d3d3d;
-}
-
-.user-detail{
-    font-size: 20px;
-}
-
-.three-border{
-    border-top: 2px solid #71B1D1;
-}
-
-.three-border img{
-    width: 100%; 
-}
-.list-item-style{
-    text-align: center;
-}
-
-.count-position{
-    position: relative;
-}
-
-.hit-align{
-    position: absolute;
-    top: -8px;
-    left: -10px;
-}
-.post-button{
-    padding: 5px 8px;
-    font-size: 16px;
-    min-width: 70px;
-    border: none;
-    font-family: 'DroidSans';
-    border-radius: 5px;
-}
-
-.family-branch{
-    width: 100%;
-    border-radius: 5px;
+.curated-by-name {
+    width:30%;
 }
