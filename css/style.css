@@ -1106,6 +1106,78 @@ hr {clear: both; }
         width: 30%;
     }
 
+    .header-one {
+        margin: 5px 0;
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    #page-curator .user-container .user-name {
+        padding-top: 5px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    #page-curator .user-container .curator-image {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .user-container {
+        margin: 0;
+        padding: 0 5px;
+    }
+
+    #page-curator .user-container .user-detail {
+        font-family: 'DroidSans';
+        font-size: 10px;
+        padding: 1px 0;
+    }
+
+    .social-icons li a img {
+        width: 20px;
+    }
+
+    .list-inline>li {
+         padding-right: 0;
+         padding-left: 0;
+    }
+
+    #page-curator .user-container .user-detail {
+        margin: 0 0 5px;
+    }
+
+    #page-curator .curator-description {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    #page-curator .user-container .user-record-title {
+        margin-top: 5px;
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    #page-curator .user-container .user-records {
+        font-size: 12px;
+        padding: 0 0;
+    }
+
+    .curator-profile-img {
+        margin: 0px 10px 10px 0;
+        width: 20%;
+    }
+
+    .curator-profile-name {
+        font-size: 12px;
+    }
+
+    .curator-wall {
+        min-height: 50px;
+        padding: 10px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
 
 }
 .curated-by-divider{
