@@ -440,6 +440,7 @@ a.list-group-custom {
 }
 
 #page-message .message-description {
+    font-family: 'DroidSans';
     font-size:26px;
     line-height: 130%;
 }
@@ -1289,6 +1290,85 @@ hr {clear: both; }
     .form-settings .form-row {
         margin-bottom: 5px;
     }
+
+    .notification-wrapper {
+        padding: 0px 5px;
+    }
+
+    .notification-description {
+        font-size: 12px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .time-span {
+        font-size: 12px;
+    }
+
+    .margin-clear {
+        padding:10px;
+    }
+
+
+    #page-message .table-type-body p {
+        margin-top: 1px;
+        padding: 5px 5px;
+        margin: 0px 5px;
+        font-size: 12px;
+    }
+
+    #page-message .table-type-body p span:last-child {
+        width: 45%;
+    }
+
+    #page-message .table-type-body {
+        margin-top: 10px;
+    }
+
+    #page-message .footer p {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    #page-message .message-body {
+        padding: 10px;
+    }
+
+    #page-message .author h5 {
+        font-size: 14px;
+    }
+
+    #page-message .author p {
+        font-size: 12px;
+    }
+
+    #page-message .messages-block {
+        margin: 7px 0;
+    }
+
+    .message-description p {
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .text-area-options {
+        font-size: 12px;
+    }
+
+    #page-message .table-type-blocks span {
+        width: 54%;
+        font-size: 12px;
+    }
+
+    #page-message .table-type-blocks span:last-child {
+        width: 46%;
+        float: right;
+    }
+
+    #page-message .table-type-blocks {
+        padding: 3px 8px;
+    }
+
 
 
 }
