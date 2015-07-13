@@ -629,6 +629,7 @@ a.list-group-custom {
 /* Page no 20*/
 
 .content {
+    font-family: 'DroidSans';
     font-size: 30px;
     /*text-align: justify;*/
     line-height: 31px;
@@ -1179,7 +1180,25 @@ hr {clear: both; }
         margin-bottom: 5px;
     }
 
+    .content {
+        font-size: 12px;
+        line-height: 130%;
+        padding: 0 5px;
+    }
+
+    .heddingContent {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 5px;
+        color: #696667;
+    }
+
 }
+
+.heddingContent {
+    color: #696667;
+}
+
 .curated-by-divider{
     width: 30%;
 }
