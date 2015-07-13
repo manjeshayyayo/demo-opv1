@@ -1193,6 +1193,79 @@ hr {clear: both; }
         color: #696667;
     }
 
+    .form-create-memorial {
+        padding: 0 10px;
+    }
+
+    .form-row label {
+        font-size: 12px;
+        margin:0;
+        margin-top: 10px;
+    }
+    .form-create-memorial textarea, .form-create-memorial input[type="text"] {
+        font-size: 12px;
+        padding: 4px 10px;
+        margin: 0 0 0 0;
+    }
+
+    .form-row img {
+        margin-top: 5px;
+    }
+
+    .form-row p {
+        font-size:12px;
+        margin: 0;
+    }
+
+    .form-create-memorial label i {
+        font-size: 12px;
+        top: 0px;
+    }
+
+    .upload-photo {
+        margin: 6px 0 0 0;
+    }
+
+    .collections img {
+        width: 23%;
+    }
+
+    .send-button {
+        padding: 5px 11px;
+        font-size: 12px;
+        min-width: 50px;
+    }
+
+    .form-create-memorial textarea {
+        margin-top: 5px;
+    }
+
+    .relative-image {
+        margin-right: 5px;
+        width: 25%;
+    }
+
+    .relative-name {
+        font-size: 12px;
+        padding-top: 5px;
+        margin-bottom: 24px;
+    }
+
+    .form-row input:nth-child(2n+3) {
+        margin-top: 10px;
+    }
+
+    .required {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .form-create-memorial .login-button {
+        font-size: 12px;
+        padding: 5px 10px;
+        min-width: 50px;
+    }
+
 }
 
 .heddingContent {
