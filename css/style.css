@@ -938,6 +938,11 @@ hr {clear: both; }
     width: 20%;
 }
 
+.user-container .offset {
+    margin-left:40%;
+}
+
+
 
 @media all and (max-width: 480px) {
     .row{
@@ -1304,4 +1309,12 @@ hr {clear: both; }
 
 .curated-by-name {
     width:30%;
+}
+
+.offset .user-record-title {
+    border-bottom: 0 !important;
+}
+
+.offset .user-records {
+    padding: 0 0 0 10px !important;
 }
