@@ -273,7 +273,7 @@ body {
 }
 
 span.hit-count {
-  font-weight: bold;
+    font-family: "DroidSans";
 }
 
 .memorial-footer > div:last-child {
@@ -990,10 +990,10 @@ hr {clear: both; }
     }
 
     .social-button li a i {
-        padding: 3px;
-        font-size: 24px;
-        min-width: 30px;
-        margin-right: 10px;
+        padding: 5px;
+        font-size: 25px;
+        min-width: 35px;
+        margin-right: 6px;
         margin-bottom: 10px;
     }
 
@@ -1039,6 +1039,8 @@ hr {clear: both; }
     .memorial-figure {
         margin-top: 0px;
         min-height: 200px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
     }
 
     .memorial-figure h4 {
@@ -1368,9 +1370,6 @@ hr {clear: both; }
     #page-message .table-type-blocks {
         padding: 3px 8px;
     }
-
-
-
 }
 
 .heddingContent {
