@@ -667,7 +667,8 @@ a.list-group-custom {
     color: #aaa;
 }
 
-
+.form-feedback textarea,
+.form-feedback input[type="text"],
 .form-create-memorial textarea,
 .form-create-memorial input[type="text"]{
     background: #e4edf2;
@@ -681,6 +682,7 @@ a.list-group-custom {
     font-weight: normal;
 }
 
+.form-feedback  label i,
 .form-create-memorial label i {
     color: red;
     font-size: 28px;
@@ -944,6 +946,37 @@ hr {clear: both; }
 }
 
 
+.heddingContent {
+    color: #696667;
+}
+
+.curated-by-divider{
+    width: 30%;
+}
+.curated-by-name img,
+.curated-by-divider img {
+    width: 30%;
+    float:left;
+}
+
+
+.curated-by-name {
+    width:30%;
+}
+
+.offset .user-record-title {
+    border-bottom: 0 !important;
+}
+
+.offset .user-records {
+    padding: 0 0 0 10px !important;
+}
+.quarter {
+    width:75%;
+}
+.triple-quarter {
+    width:35%;
+}
 
 @media all and (max-width: 480px) {
     .row{
@@ -968,11 +1001,15 @@ hr {clear: both; }
     .login-block input[type="text"],
     .login-block input[type="email"],
     .login-block input[type="password"] {
-        font-size: 16px;
+        font-size: 12px;
         min-height: 25px;
         margin-bottom: 5px;
         border-radius: 5px;
         padding: 5px 15px;
+    }
+    .form-feedback .login-button {
+        margin-right: 10% !important;
+        float: right;
     }
 
     .login-block h4 {
@@ -1210,6 +1247,7 @@ hr {clear: both; }
         margin:0;
         margin-top: 5px;
     }
+    .form-feedback textarea, .form-feedback input[type="text"]
     .form-create-memorial textarea, .form-create-memorial input[type="text"] {
         font-size: 12px;
         padding: 4px 10px;
@@ -1225,6 +1263,7 @@ hr {clear: both; }
         margin: 0;
     }
 
+    .form-feedback  label i,
     .form-create-memorial label i {
         font-size: 12px;
         top: 0px;
@@ -1370,30 +1409,4 @@ hr {clear: both; }
     #page-message .table-type-blocks {
         padding: 3px 8px;
     }
-}
-
-.heddingContent {
-    color: #696667;
-}
-
-.curated-by-divider{
-    width: 30%;
-}
-.curated-by-name img,
-.curated-by-divider img {
-    width: 30%;
-    float:left;
-}
-
-
-.curated-by-name {
-    width:30%;
-}
-
-.offset .user-record-title {
-    border-bottom: 0 !important;
-}
-
-.offset .user-records {
-    padding: 0 0 0 10px !important;
 }

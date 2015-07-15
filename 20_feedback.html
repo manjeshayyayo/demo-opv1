@@ -38,33 +38,29 @@
                 libero ligula sed libero. Nulla vitae elit vitae turpis maximus dignissim. Morbi ornare nisl dui, sit amet lobortis
                 arcu pretium vitae. Nunc id laoreet ex, a luctus quam. Aliquam bibendum ullamcorper lectus posuere tristique.</p>
             <div class="login-block">
-                <form>
-                    <div class="form-group">
-                        <label for="nameInput" class="labelFont">NAME <span class="mandetory">*</span></label>
-                        <input type="text" class="form-control" id="nameInput" placeholder="Name">
+                <form class="form-feedback">
+                    <div class="form-row">
+                        <label for="nameInput">NAME <i>*</i></label>
+                        <input type="text" class="form-item" id="nameInput" placeholder="Name">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1" class="labelFont">EMAIL <span class="mandetory">*</span></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    <div class="form-row">
+                        <label for="exampleInputEmail1">EMAIL <i>*</i></label>
+                        <input type="text" class="form-item" id="exampleInputEmail1" placeholder="Email">
                     </div>
-                    <div class="form-group">
-                        <label for="placeInput" class="labelFont">PLACE</label>
-                        <input type="text" class="form-control" id="placeInput" placeholder="Place">
+                    <div class="form-row">
+                        <label for="placeInput">PLACE</label>
+                        <input type="text" class="form-item" id="placeInput" placeholder="Place">
                     </div>
-                    <div class="form-group">
-                        <label class="labelFont">MOBILE</label>
-                        <div class="row">
-                            <div class="col-xs-4">
-                                <input type="text" class="form-control" placeholder="+91">
-                            </div>
-                            <div class="col-xs-8">
-                                <input type="number" class="form-control" placeholder="Mobile">
-                            </div>
-                        </div>
+                    <div class="form-row">
+                        <label>MOBILE</label>
+
+                        <input type="text" class="form-item quarter" placeholder="+91">
+                        <input type="text" class="form-item triple-quarter" placeholder="Mobile">
+
                     </div>
-                    <div class="form-group">
-                        <label for="textAreaInput" class="labelFont">FEEDBACK</label>
-                        <textarea class="form-control" id="textAreaInput" rows="3" placeholder="Write your sugesstion, thought, ideas, crictism or any feedback that you think we should know."></textarea>
+                    <div class="form-row">
+                        <label for="textAreaInput">FEEDBACK</label>
+                        <textarea class="form-item" id="textAreaInput" rows="3" placeholder="Write your sugesstion, thought, ideas, crictism or any feedback that you think we should know."></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-default login-button login-button-submit sendBtn">Send</button>
