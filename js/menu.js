@@ -1,3 +1,5 @@
+
+
 (function(window) {
 
   'use strict';
@@ -119,3 +121,73 @@
   window.Menu = Menu;
 
 })(window);
+
+/**
+ * Slide left instantiation and action.
+ *
+ *
+ *
+ */
+var str = "<nav id='c-menu--slide-left' class='c-menu c-menu--slide-left'> \
+<button class='c-menu__close'>&larr; Close Menu</button> \
+<div class='list-group '> \
+<input type='text' class='form-control' placeholder='Search'> \
+<a href='1_join.html' class='list-group-item list-group-custom'>Join / Login</a> \
+<a href='3_homepage.html' class='list-group-item list-group-custom'>Home</a> \
+<a href='21_creatmemorial_form.html' class='list-group-item list-group-custom'>Create Memorial</a> \
+<a href='16_aboutus.html' class='list-group-item list-group-custom'>About</a> \
+<a href='17_help.html' class='list-group-item list-group-custom'>Help</a> \
+<a href='18_term of service.html' class='list-group-item list-group-custom'>Terms</a> \
+<a href='19_privacy policy.html' class='list-group-item list-group-custom'>Privacy</a> \
+<a href='20_feedback.html' class='list-group-item list-group-custom'>Feedback</a> \
+<a href='22_settingpage_1.html' class='list-group-item list-group-custom'>Settings</a> \
+<ul class='list-unstyled list-inline social-button'> \
+<li><a href='http://facebook.com'><i class='fa fa-facebook'></i></a></li> \
+<li><a href='http://twitter.com'><i class='fa fa-twitter'></i></a></li> \
+<li><a href='http://plus.google.com'><i class='fa fa-google-plus'></i></a></li> \
+<li><a href='#'><i class='fa fa-mobile'></i></a></li> \
+</ul> \
+</div> \
+</nav> \
+<div id='c-mask' class='c-mask'></div>";
+
+
+
+$('document').ready(function(){
+
+  $('body').prepend(str)
+  var slideLeft = new Menu({
+    wrapper: '.op-header',
+    type: 'slide-left',
+    menuOpenerClass: '.c-button',
+    maskId: '#c-mask'
+  });
+
+  $('body').on('click','.menu',function(e){
+
+    e.preventDefault();
+    slideLeft.open();
+  });
+
+
+})
+
+//$('document').ready(function(){
+//  $('body').prepend(str)
+//  var slideLeft = new Menu({
+//    wrapper: '.op-header',
+//    type: 'slide-left',
+//    menuOpenerClass: '.c-button',
+//    maskId: '#c-mask'
+//  });
+//
+//  var slideLeftBtn = document.querySelector('#c-button--slide-left');
+//
+//  slideLeftBtn.addEventListener('click', function(e) {
+//    e.preventDefault;
+//    slideLeft.open();
+//  });
+//})
+//
+//
+

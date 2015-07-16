@@ -20,21 +20,9 @@
     <script src="lib/jquery/1.11.2/jquery.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/owl/owl.carousel.js"></script>
+    <script src="js/menu.js"></script>
 </head>
 <body id="page-homepage">
-<nav id="c-menu--slide-left" class="c-menu c-menu--slide-left">
-    <button class="c-menu__close">&larr; Close Menu</button>
-    <div class="list-group ">
-        <input type="text" class="form-control" placeholder="Search">
-        <a href="#" class="list-group-item list-group-custom">
-            Cras justo odio
-        </a>
-        <a href="#" class="list-group-item list-group-custom">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item list-group-custom">Morbi leo risus</a>
-        <a href="#" class="list-group-item list-group-custom">Porta ac consectetur ac</a>
-        <a href="#" class="list-group-item list-group-custom">Vestibulum at eros</a>
-    </div>
-</nav><!-- /c-menu slide-left -->
 
 <div class="page-container header-background">
     <div id="o-wrapper" class="op-header text-center">
@@ -166,27 +154,5 @@
         </div>
     </div>
 </div>
-<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
-
-<!-- menus script -->
-<script src="js/menu.js"></script>
-<script>
-    /**
-     * Slide left instantiation and action.
-     */
-    var slideLeft = new Menu({
-        wrapper: '#o-wrapper',
-        type: 'slide-left',
-        menuOpenerClass: '.c-button',
-        maskId: '#c-mask'
-    });
-
-    var slideLeftBtn = document.querySelector('#c-button--slide-left');
-
-    slideLeftBtn.addEventListener('click', function(e) {
-        e.preventDefault;
-        slideLeft.open();
-    });
-</script>
 </body>
 </html>
