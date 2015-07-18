@@ -1021,6 +1021,7 @@ hr {clear: both; }
     margin-top: 25px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    text-align: initial;
 }
 
 .curated-by-divider {
@@ -1117,6 +1118,13 @@ hr {clear: both; }
 
 .sidebar-search a:last-child {
     border-bottom: 0;
+}
+
+.report-memorial {
+    float: right;
+    margin-top: 10px;
+    right: 10px;
+    position: absolute;
 }
 
 @media all and (max-width: 480px) {
