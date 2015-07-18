@@ -937,7 +937,7 @@ hr {clear: both; }
     margin-top: 10px;
 }
 
-.reply-repot-link{
+.reply-report-link > div{
     border: 1px solid #73b3cf;
     padding: 10px;
     text-align: center;
@@ -953,6 +953,7 @@ hr {clear: both; }
 .content-text{
     font-size: 25px;
     color: #3d3d3d;
+    font-family: 'DroidSans';
 }
 
 .user-detail{
@@ -1531,6 +1532,38 @@ hr {clear: both; }
     .sidebar-search {
         width: 110%;
         left: -5%;
+    }
+
+    .tribute h1 {
+        font-size: 16px;
+    }
+
+    .tribute .user-detail {
+        font-size: 12px;
+        margin-bottom:10px;
+    }
+    .tribute .curator-profile-image{
+        width: 25%;
+    }
+
+    .tribute > ul >  li > a > img  {
+        width:25px
+    }
+
+    .tribute-wrap .content-text {
+        font-size: 12px;
+    }
+
+    .reply-report-link > div {
+        font-size: 10px;
+    }
+
+    .tribute-wrap .content-area {
+        padding: 10px;
+    }
+
+    .memorial-footer-sticky {
+        height: 30px;
     }
 }
 /*Slidemenu CSS*/
