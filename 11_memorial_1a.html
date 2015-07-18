@@ -24,7 +24,7 @@
 <body id="page-homepage">
 <div class="page-container">
     <div id="o-wrapper" class="op-header text-center">
-        <span id="c-button--slide-left" class="menu">  </span>
+        <span class="menu">  </span>
         <img src="images/logo-obitopedia.jpg" class="logo">
     </div>
     <img  src="images/slide.png" class="img-responsive" style="width:100%">
@@ -88,28 +88,6 @@
 
 <!-- menus script -->
 <script src="js/menu.js"></script>
-<script>
 
-    /**
-     * Slide left instantiation and action.
-     */
-    var slideLeft = new Menu({
-        wrapper: '#o-wrapper',
-        type: 'slide-left',
-        menuOpenerClass: '.c-button',
-        maskId: '#c-mask'
-    });
-
-    var slideLeftBtn = document.querySelector('#c-button--slide-left');
-
-    slideLeftBtn.addEventListener('click', function(e) {
-        e.preventDefault;
-        slideLeft.open();
-    });
-
-
-
-
-</script>
 </body>
 </html>
