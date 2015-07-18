@@ -54,7 +54,7 @@
     this.mask = document.querySelector(this.options.maskId);
     this.menu = document.querySelector('#c-menu--' + this.options.type);
     this.closeBtn = this.menu.querySelector('.c-menu__close');
-    this.menuOpeners = document.querySelectorAll(this.options.menuOpenerClass);
+    //this.menuOpeners = document.querySelectorAll(this.options.menuOpenerClass);
     this._initEvents();
   };
 
@@ -63,10 +63,10 @@
    */
   Menu.prototype._initEvents = function() {
     // Event for clicks on the close button inside the menu.
-    this.closeBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.close();
-    }.bind(this));
+    //this.closeBtn.addEventListener('click', function(e) {
+    //  e.preventDefault();
+    //  this.close();
+    //}.bind(this));
 
     // Event for clicks on the mask.
     this.mask.addEventListener('click', function(e) {
@@ -83,7 +83,7 @@
     this.wrapper.classList.add('has-' + this.options.type);
     this.menu.classList.add('is-active');
     this.mask.classList.add('is-active');
-    this.disableMenuOpeners();
+    //this.disableMenuOpeners();
   };
 
   /**
@@ -94,26 +94,26 @@
     this.wrapper.classList.remove('has-' + this.options.type);
     this.menu.classList.remove('is-active');
     this.mask.classList.remove('is-active');
-    this.enableMenuOpeners();
+    //this.enableMenuOpeners();
   };
 
   /**
    * Disable Menu Openers.
    */
-  Menu.prototype.disableMenuOpeners = function() {
-    each(this.menuOpeners, function(item) {
-      item.disabled = true;
-    });
-  };
+  //Menu.prototype.disableMenuOpeners = function() {
+  //  each(this.menuOpeners, function(item) {
+  //    item.disabled = true;
+  //  });
+  //};
 
   /**
    * Enable Menu Openers.
    */
-  Menu.prototype.enableMenuOpeners = function() {
-    each(this.menuOpeners, function(item) {
-      item.disabled = false;
-    });
-  };
+  //Menu.prototype.enableMenuOpeners = function() {
+  //  each(this.menuOpeners, function(item) {
+  //    item.disabled = false;
+  //  });
+  //};
 
   /**
    * Add to global namespace.
@@ -167,9 +167,11 @@ $('document').ready(function(){
 
   $('body').on('click','.menu',function(e){
     e.preventDefault();
-    slideLeft.open();
+    if($('body').hasClass('has-active-menu'))
+      slideLeft.close();
+    else
+      slideLeft.open();
   });
-
 
 })
 
