@@ -280,7 +280,24 @@ body {
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   text-align:center;
+    position:relative;
 }
+
+.relatives {
+    padding-top: 30px;
+}
+
+.relative-caption {
+    position: absolute;
+    background-color: #2784af;
+    top: 6px;
+    color: #fff;
+    padding: 0 12px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'DroidSans';
+}
+
 .memorial-figure h4 {
   color:#5D6164;
   font-family: 'DroidSans';
@@ -318,6 +335,7 @@ span.hit-count {
     margin-top: -20%;
     border-radius: 50%;
     width: 44%;
+    border: 5px solid #fff;
 }
 
 .column {
@@ -803,8 +821,53 @@ span.hit-count {
     padding: 10px 0;
 }
 
+hr.curator-divider {
+    /* color: #BABABC; */
+    /* background-color: #BABABC; */
+    border: 1px solid #BABABC;
+}
+
+.tribute .curator-profile-image {
+    float:left;
+    width: 12%;
+    margin-right:10px;
+}
+
+.tribute h1 {
+    color: #42474A;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.tribute .list-inline>li {
+    padding-left: 0;
+}
+
+.tribute .user-detail {
+    font-family: 'DroidSans';
+    font-size: 16px;
+    margin-bottom: 20px;
+}
 .social-icons li  a img {
     width: 55px;
+}
+
+.memorial-footer-sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.memorial-footer-sticky > div{
+      background: #E4EEF0;
+      min-height: 43px;
+      border-right: 2px solid #71B1D1;
+      padding-top: 5px;
+      position:relative;
+}
+
+.memorial-footer-sticky >div:last-child {
+    border-right: 0;
 }
 
 #page-curator .curator-description{
@@ -1132,6 +1195,8 @@ hr {clear: both; }
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
     }
+
+
 
     .memorial-figure h4 {
         font-size: 14px;
