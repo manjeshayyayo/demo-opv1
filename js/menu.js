@@ -130,14 +130,14 @@
  */
 var str = "<nav id='c-menu--slide-left' class='c-menu c-menu--slide-left'> \
 <button class='c-menu__close hidden'>&larr; Close Menu</button> \
-<div class='list-group '> \
+<div class='list-group sidebar-search-wrap'> \
 <input type='text' class='form-control sidebar-search' placeholder='Search Obitopedia'> \
 <a href='1_join.html' class='list-group-custom'>Join / Login</a> \
 <a href='3_homepage.html' class='list-group-custom-padded sidebar-home'>Home</a> \
 <a href='21_creatmemorial_form.html' class='list-group-custom-padded sidebar-create'>Create Memorial</a> \
 <a href='28_notification_1.html' class='list-group-custom-padded sidebar-notifications'>Notifications</a> \
 <a href='30_message_1.html' class='list-group-custom-padded sidebar-messages'>Obito Messages</a> \
-<a href='10_curator page.html' class='list-group-custom-padded sidebar-curator'>Curator's Page</a> \
+<a href='10_curator page.html' class='list-group-custom-padded sidebar-curator last'>Curator's Page</a> \
 <a href='16_aboutus.html' class='list-group-custom'>About</a> \
 <a href='18_term of service.html' class='list-group-custom'>Terms</a> \
 <a href='19_privacy policy.html' class='list-group-custom'>Privacy</a> \

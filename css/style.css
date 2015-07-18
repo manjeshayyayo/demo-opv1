@@ -29,11 +29,17 @@ body {
 	background:#328EBD;
 }
 
-#page-join ::-webkit-input-placeholder {font-family: 'DroidSans';font-weight:bold; }
-#page-join ::-moz-placeholder { font-family: 'DroidSans';font-weight:bold  }
-#page-join :-ms-input-placeholder { font-family: 'DroidSans'; font-weight:bold }
-#page-join input:-moz-placeholder { font-family: 'DroidSans'; font-weight:bold }
+#page-join ::-webkit-input-placeholder {font-family: 'DroidSans';font-weight:bold; color:#8A8B8D}
+#page-join ::-moz-placeholder { font-family: 'DroidSans';font-weight:bold; color:#8A8B8D  }
+#page-join :-ms-input-placeholder { font-family: 'DroidSans'; font-weight:bold; color:#8A8B8D }
+#page-join input:-moz-placeholder { font-family: 'DroidSans'; font-weight:bold; color:#8A8B8D }
 
+
+.sidebar-search-wrap ::-webkit-input-placeholder {font-family: 'DroidSans'; color:#83BAD8}
+.sidebar-search-wrap ::-moz-placeholder { font-family: 'DroidSans'; color:#83BAD8  }
+.sidebar-search-wrap :-ms-input-placeholder { font-family: 'DroidSans';  color:#83BAD8 }
+.sidebar-search-wrap input:-moz-placeholder { font-family: 'DroidSans';  color:#83BAD8 }
+.sidebar-search-wrap input:-moz-placeholder { font-family: 'DroidSans';  color:#83BAD8 }
 
 #page-join .fa {
     color: #696768;
@@ -63,14 +69,21 @@ body {
 .login-block  textarea, .loginBlock textarea{
     background: #DEECF5;
     color: #70706F;
-
     font-family: 'DroidSans';
     font-size: 26px;
     min-height: 65px;
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 5px 40px;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
 }
+
+.remember-me span a {
+    margin-left: 20px;
+}
+
+
 
 .login-button {
     background: #ADD2E5;
@@ -99,7 +112,7 @@ body {
 
 #page-join  hr {
     color: white;
-    border-top: 3px solid #eee;
+    border-top: 1px solid #eee;
 }
 
 .login-block h4 {
@@ -111,14 +124,14 @@ body {
 
 .social-button-sidebar {
     padding: 10px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(201, 202, 204,0.9);
 }
 
 .social-button li a i {
     padding: 10px;
     font-size: 34px;
-    box-shadow: 1px 4px 0px #888888;
-    border-radius: 5px;
+    box-shadow: 0px 2px 0px #888888;
+    border-radius: 2px;
     background: #DBE8F0;
     min-width: 63px;
     text-align: center;
@@ -159,7 +172,7 @@ body {
 }
 
 .login-block p {
-    color: #71B0D2;
+    color: #328EBD;
     font-family: 'DroidSans';
     font-size: 18px;
     font-weight: bold;
@@ -358,21 +371,28 @@ span.hit-count {
 }
 
 .list-group-custom {
-    background-color: #328ebd !important;
+    font-family: 'DroidSans';
+    background-color: transparent;
     color: #B3B4B8;
     position: relative;
     display: block;
     padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(201, 202, 204,0.9);
 }
 
 .list-group-custom-padded {
-    background-color: #328ebd !important;
+    font-family: 'DroidSans';
+    background-color: transparent;
     color: #fff !important;
     position: relative;
     display: block;
     padding: 10px 15px 10px 35px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(201, 202, 204,0.9);
+}
+
+
+.list-group-custom-padded.last {
+    border-bottom-width: 2px;
 }
 
 
@@ -1084,11 +1104,15 @@ hr {clear: both; }
 }
 
 .sidebar-search {
-    width: 105%;
     position: relative;
-    left: -5%;
     opacity: 1;
-    margin: 4%;
+    margin: 6% 0 0 0;
+    box-shadow:initial;
+    -webkit-box-shadow: initial;
+    border:0;
+    background: url(../images/sprite/search.png) no-repeat #fff 5px 5px;
+    padding-left: 35px;
+    background-size: 25px;
 }
 
 .sidebar-search a:last-child {
@@ -1118,12 +1142,15 @@ hr {clear: both; }
     .login-block input[type="text"],
     .login-block input[type="email"],
     .login-block input[type="password"] {
-        font-size: 12px;
-        min-height: 25px;
+        font-size: 14px;
+        min-height: 20px;
         margin-bottom: 5px;
         border-radius: 5px;
-        padding: 5px 15px;
+        padding: 2px 15px;
+        border: 0;
+        height:30px;
     }
+
     .form-feedback .login-button {
         margin-right: 10% !important;
         float: right;
@@ -1144,10 +1171,10 @@ hr {clear: both; }
     }
 
     .social-button li a i {
-        padding: 5px;
-        font-size: 25px;
-        min-width: 35px;
-        margin-right: 6px;
+        padding: 4px;
+        font-size: 24px;
+        min-width: 32px;
+        margin-right: 10px;
         margin-bottom: 10px;
     }
 
@@ -1181,6 +1208,8 @@ hr {clear: both; }
     .op-header {
         padding: 5px 10px;
         margin-bottom: 5px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
 
     #page-homepage .heading {
@@ -1188,11 +1217,17 @@ hr {clear: both; }
         font-size: 12px;
         padding:5px;
         margin-bottom:5px;
+        border-radius: 3px;
 
     }
     .memorial-figure {
         margin-top: 0px;
         min-height: 200px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .memorial-figure-image {
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
     }
@@ -1530,8 +1565,7 @@ hr {clear: both; }
     }
 
     .sidebar-search {
-        width: 110%;
-        left: -5%;
+
     }
 
     .tribute h1 {
@@ -1565,15 +1599,16 @@ hr {clear: both; }
     .memorial-footer-sticky {
         height: 30px;
     }
+
+
 }
-/*Slidemenu CSS*/
+/* Slidemenu CSS */
 
 .c-menu {
     position: fixed;
     z-index: 200;
-    background-color: #328ebd;
-    opacity: .9;
-    padding: 20px;
+    background: rgba(39,135,172,0.9);
+    padding: 20px 6px;
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
 }
