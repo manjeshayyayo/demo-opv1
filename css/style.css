@@ -759,6 +759,13 @@ span.hit-count {
     font-weight: normal;
 }
 
+.form-feedback textarea,
+.form-feedback input[type="text"]{
+    width: 100%;
+    border-radius: 3px !important;
+    margin: 0 0px 10px 0;
+}
+
 .form-feedback  label i,
 .form-create-memorial label i {
     color: red;
@@ -1104,7 +1111,7 @@ hr {clear: both; }
     display: inline-block;
 }
 .triple-quarter {
-    width:65% !important
+    width:78% !important;
     display: inline-block;
 }
 
@@ -1250,7 +1257,7 @@ nav#c-menu--slide-right {
     }
 
     .login-block {
-        padding: 10px;
+        padding: 5px;
     }
 
     .login-block input[type="text"],
@@ -1266,7 +1273,6 @@ nav#c-menu--slide-right {
     }
 
     .form-feedback .login-button {
-        margin-right: 10% !important;
         float: right;
     }
 
@@ -1494,7 +1500,7 @@ nav#c-menu--slide-right {
     }
 
     .content {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 130%;
         padding: 0 5px;
     }
