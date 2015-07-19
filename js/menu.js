@@ -90,9 +90,6 @@ var str = "<nav id='c-menu--slide-left' class='c-menu c-menu--slide-left'> \
 $('document').ready(function(){
   $('body').prepend(str)
 
-
-
-
   function initMenu(options){
 
     $('body').on('click','#c-mask',function(e){
